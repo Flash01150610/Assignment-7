@@ -10,6 +10,7 @@ const scene1={
     this.load.image('mage','mage.jpg');
     },
     create:function(){
+      this.add.image(0,0, 'mage').setOrigin(0,0);
       const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
       const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
             fontSize: '24px',
@@ -28,6 +29,7 @@ const scene2={
         this.load.image('dragon','dragon.jpg');
         },
         create:function(){
+          this.add.image(0,0, 'dragon').setOrigin(0,0);
           const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
           const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
                 fontSize: '24px',
@@ -46,6 +48,7 @@ const scene3={
     this.load.image('thunder','thunder.jpg');
     },
     create:function(){
+      this.add.image(0,0, 'thunder').setOrigin(0,0);
       const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
       const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
             fontSize: '24px',
@@ -64,6 +67,7 @@ const scene4={
     this.load.image('water','water.jpg');
     },
     create:function(){
+      this.add.image(0,0, 'water').setOrigin(0,0);
       const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
       const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
             fontSize: '24px',
