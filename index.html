@@ -17,7 +17,7 @@ const scene1={
             fill: '#fff'
         });
         text.setOrigin(0.5);
-        this.input.ketboard.on('keydown-SPACE',function(){
+        this.input.keyboard.on('keydown-SPACE',function(){
         this.scene.start('scene2');
       },this);
     },
@@ -36,7 +36,7 @@ const scene2={
                 fill: '#fff'
             });
             text.setOrigin(0.5);
-            this.input.ketboard.on('keydown-SPACE',function(){
+            this.input.keyboard.on('keydown-SPACE',function(){
         this.scene.start('scene3');
         },this);
         },
@@ -55,7 +55,7 @@ const scene3={
             fill: '#fff'
         });
         text.setOrigin(0.5);
-        this.input.ketboard.on('keydown-SPACE',function(){
+        this.input.keyboard.on('keydown-SPACE',function(){
     this.scene.start('scene4');
     },this);
     },
@@ -74,7 +74,7 @@ const scene4={
             fill: '#fff'
         });
         text.setOrigin(0.5);
-        this.input.ketboard.on('keydown-SPACE',function(){
+        this.input.keyboard.on('keydown-SPACE',function(){
     this.scene.start('scene4');
     },this);
     },
