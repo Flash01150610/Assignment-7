@@ -64,10 +64,10 @@ const scene3={
       
 const scene4={
     preload:function() {
-    this.load.image('water','water.jpg');
+    this.load.image('ocean','ocean.jpg');
     },
     create:function(){
-      this.add.image(0,0, 'water').setOrigin(0,0);
+      this.add.image(0,0, 'ocean').setOrigin(0,0);
       const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
       const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
             fontSize: '24px',
