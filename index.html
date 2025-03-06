@@ -1,0 +1,91 @@
+<html>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.88.2/phaser.js"></script>
+<script>
+const scene1={
+preload:function() {
+this.load.image('mage','assets/mage.jpg)
+},
+create:function(){
+  const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
+  const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
+        fontSize: '24px',
+        fill: '#fff'
+    });
+    text.setOrigin(0.5);
+    this.input.ketboard.on('keydown-space',function(){
+this.scene.start('scene2');
+},this);
+},
+update:function(){}
+},
+const scene2={
+preload:function() {
+this.load.image('dragon','assets/dragon.jpg)
+},
+create:function(){
+  const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
+  const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
+        fontSize: '24px',
+        fill: '#fff'
+    });
+    text.setOrigin(0.5);
+    this.input.ketboard.on('keydown-space',function(){
+this.scene.start('scene2');
+},this);
+},
+update:function(){}
+},
+const scene3={
+preload:function() {
+this.load.image('thunder','assets/thunder.jpg)
+},
+create:function(){
+  const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
+  const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
+        fontSize: '24px',
+        fill: '#fff'
+    });
+    text.setOrigin(0.5);
+    this.input.ketboard.on('keydown-space',function(){
+this.scene.start('scene2');
+},this);
+},
+update:function(){}
+},
+const scene4={
+preload:function() {
+this.load.image('water','assets/water.jpg)
+},
+create:function(){
+  const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
+  const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
+        fontSize: '24px',
+        fill: '#fff'
+    });
+    text.setOrigin(0.5);
+    this.input.ketboard.on('keydown-space',function(){
+this.scene.start('scene2');
+},this);
+},
+update:function(){}
+},
+const scene5={
+preload:function() {
+this.load.image(falling rocks','assets/falling rocks.jpg)
+},
+create:function(){
+  const background = this.add.sprite(0, 0, 'background').setOrigin(0, 0);
+  const text = this.add.text(400, 300, 'Scene 1 - Press Space to Transition', {
+        fontSize: '24px',
+        fill: '#fff'
+    });
+    text.setOrigin(0.5);
+    this.input.ketboard.on('keydown-space',function(){
+this.scene.start('scene2');
+},this);
+},
+update:function(){}
+},
+</body>
+</html>
